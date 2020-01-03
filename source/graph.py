@@ -41,17 +41,17 @@ def format_axes(axes):
 def plot_waves(axes):
     """Plot the successive sine waves on the graph"""
     lines = []
-    X = np.linspace(0, 10, 512)
-    for i in range(1, 6):
-        xscale = 1 - i / 20.
-        lw = 1.5 - i / 100.0
+    for i in np.arange(1, 10*2, 2):
+        domain = np.linspace(i*0.2, 10-(i*0.2), 512)
 
-        y_delta = 1.6 * i
-        freq = (2 * i)
+        line_width = 1.5 - i / 100.0
+        y_delta = i/2.5 + 1
+        freq = i
         phase = np.pi/2
+        amp = 1/i
 
-        line, = axes.plot(X, np.sin((freq * X) + phase) +
-                          y_delta, color="w", lw=lw)
+        line, = axes.plot(domain, amp * np.sin((freq * domain) + phase) +
+                          y_delta, color="w", lw=line_width)
         lines.append(line)
     return lines
 
