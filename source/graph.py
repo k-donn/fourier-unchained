@@ -4,6 +4,8 @@ python3.7 source/graph.py
 description:
 A parody of Joy Division's Unknown Pleasures album cover
 """
+# TODO
+# Add docstring types and code types
 import numpy as np
 import matplotlib.pyplot as plt
 
