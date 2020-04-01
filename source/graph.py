@@ -6,6 +6,7 @@ A parody of Joy Division's Unknown Pleasures album cover
 """
 # TODO
 # Add docstring types and code types
+# Add figures/ dir
 import numpy as np
 import matplotlib.pyplot as plt
 
