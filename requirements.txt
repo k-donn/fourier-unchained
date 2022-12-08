@@ -6,7 +6,7 @@ blas==1.0
 bzip2==1.0.8
 ca-certificates==2020.1.1
 cairo==1.14.12
-certifi==2019.11.28
+certifi==2022.12.7
 cffi==1.14.0
 cfitsio==3.470
 chardet==3.0.4
