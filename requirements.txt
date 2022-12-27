@@ -96,7 +96,7 @@ readline==7.0
 requests==2.23.0
 ripgrep==11.0.2
 ruamel_yaml==0.15.87
-setuptools==46.1.1
+setuptools==65.5.1
 six==1.14.0
 soupsieve==2.0
 sqlite==3.31.1
